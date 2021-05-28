@@ -19,7 +19,7 @@ struct homePage: View {
                                 .font(.largeTitle)
                                 .foregroundColor(Color.blue)
                                 .padding()
-                    }
+                    }.isDetailLink(false)
 //                    NavigationLink(destination: TestUIView()) {
 //                        Text("Random")
 //                                .font(.largeTitle)
