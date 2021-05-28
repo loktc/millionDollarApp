@@ -19,13 +19,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
+            
             switch view {
             case MainView.Home:
                 homePage(rootIsActive: self.$isActive)
             case MainView.Message:
-                EmptyView()
+                message()
             case MainView.Profile:
-                EmptyView()
+                profile()
             }
             HStack {
                 Button (action: { self.isActive = false; self.view = MainView.Home }){
@@ -46,7 +47,7 @@ struct ContentView: View {
                         .foregroundColor(Color.blue)
                         .padding()
                 }
-            }
+            }.frame(maxHeight: .infinity, alignment: .bottom)
         }
     }
 }

@@ -20,34 +20,34 @@ struct homePage: View {
                                 .foregroundColor(Color.blue)
                                 .padding()
                     }.isDetailLink(false)
-//                    NavigationLink(destination: TestUIView()) {
-//                        Text("Random")
-//                                .font(.largeTitle)
-//                                .foregroundColor(Color.blue)
-//                                .padding()
-//                    }
+                    NavigationLink(destination: EmptyView(), isActive: self.$rootIsActive) {
+                        Text("Random")
+                                .font(.largeTitle)
+                                .foregroundColor(Color.blue)
+                                .padding()
+                    }.isDetailLink(false)
                 }
-//                VStack {
-//                    NavigationLink(destination: TestUIView()) {
-//                        Text("Game")
-//                                .font(.largeTitle)
-//                                .foregroundColor(Color.blue)
-//                                .padding()
-//                    }
-//                    NavigationLink(destination: TestUIView()) {
-//                        Text("Timeline")
-//                                .font(.largeTitle)
-//                                .foregroundColor(Color.blue)
-//                                .padding()
-//                    }
-//                }
-            }.frame(minHeight: 0, maxHeight: . infinity)
+                VStack {
+                    NavigationLink(destination: EmptyView(), isActive: self.$rootIsActive) {
+                        Text("Game")
+                                .font(.largeTitle)
+                                .foregroundColor(Color.blue)
+                                .padding()
+                    }.isDetailLink(false)
+                    NavigationLink(destination: EmptyView(), isActive: self.$rootIsActive) {
+                        Text("Timeline")
+                                .font(.largeTitle)
+                                .foregroundColor(Color.blue)
+                                .padding()
+                    }.isDetailLink(false)
+                }
+            }//.frame(minHeight: 0, maxHeight: .infinity)
         }
     }
 }
 
 //struct homePage_Previews: PreviewProvider {
 //    static var previews: some View {
-//        homePage()
+//        homePage( rootIsActive: constant "true")
 //    }
 //}
