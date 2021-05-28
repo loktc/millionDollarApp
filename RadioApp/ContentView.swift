@@ -9,7 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        homePage()
+        VStack{
+            homePage()
+            HStack {
+                Text("Home")
+                    .font(.subheadline)
+                    .foregroundColor(Color.blue)
+                    .padding()
+                Text("Message")
+                    .font(.subheadline)
+                    .foregroundColor(Color.blue)
+                    .padding()
+                Text("Profile")
+                    .font(.subheadline)
+                    .foregroundColor(Color.blue)
+                    .padding()
+            }
+        }
     }
 }
 
