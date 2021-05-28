@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isActive: Bool = true
+    
     var body: some View {
         VStack{
-            homePage()
+            homePage(rootIsActive: self.$isActive)
             HStack {
-                Text("Home")
-                    .font(.subheadline)
-                    .foregroundColor(Color.blue)
-                    .padding()
+                Button (action: { self.isActive = false }){
+                    Text("Home")
+                        .font(.subheadline)
+                        .foregroundColor(Color.blue)
+                        .padding()
+                }
                 Text("Message")
                     .font(.subheadline)
                     .foregroundColor(Color.blue)

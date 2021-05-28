@@ -8,44 +8,46 @@
 import SwiftUI
 
 struct homePage: View {
+    @Binding var rootIsActive : Bool
+    
     var body: some View {
         NavigationView {
             HStack {
                 VStack {
-                    NavigationLink(destination: TestUIView()) {
+                    NavigationLink(destination: EmptyView(), isActive: self.$rootIsActive) {
                         Text("Radio")
                                 .font(.largeTitle)
                                 .foregroundColor(Color.blue)
                                 .padding()
                     }
-                    NavigationLink(destination: TestUIView()) {
-                        Text("Random")
-                                .font(.largeTitle)
-                                .foregroundColor(Color.blue)
-                                .padding()
-                    }
+//                    NavigationLink(destination: TestUIView()) {
+//                        Text("Random")
+//                                .font(.largeTitle)
+//                                .foregroundColor(Color.blue)
+//                                .padding()
+//                    }
                 }
-                VStack {
-                    NavigationLink(destination: TestUIView()) {
-                        Text("Game")
-                                .font(.largeTitle)
-                                .foregroundColor(Color.blue)
-                                .padding()
-                    }
-                    NavigationLink(destination: TestUIView()) {
-                        Text("Timeline")
-                                .font(.largeTitle)
-                                .foregroundColor(Color.blue)
-                                .padding()
-                    }
-                }
+//                VStack {
+//                    NavigationLink(destination: TestUIView()) {
+//                        Text("Game")
+//                                .font(.largeTitle)
+//                                .foregroundColor(Color.blue)
+//                                .padding()
+//                    }
+//                    NavigationLink(destination: TestUIView()) {
+//                        Text("Timeline")
+//                                .font(.largeTitle)
+//                                .foregroundColor(Color.blue)
+//                                .padding()
+//                    }
+//                }
             }.frame(minHeight: 0, maxHeight: . infinity)
         }
     }
 }
 
-struct homePage_Previews: PreviewProvider {
-    static var previews: some View {
-        homePage()
-    }
-}
+//struct homePage_Previews: PreviewProvider {
+//    static var previews: some View {
+//        homePage()
+//    }
+//}
