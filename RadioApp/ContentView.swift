@@ -8,46 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Enumeration containing the different main views
     enum MainView {
         case Home
         case Message
         case Profile
     }
     
+    // isActive is used to return to one of the main view
     @State var isActive: Bool = false
+    // view cotains the current view
     @State var view: MainView = MainView.Home
-    
+
     var body: some View {
-        VStack{
-            
-            switch view {
-            case MainView.Home:
-                homePage(rootIsActive: self.$isActive)
-            case MainView.Message:
-                message()
-            case MainView.Profile:
-                profile()
+        VStack {
+            // Main navigational view
+            NavigationView {
+                switch view {
+                case MainView.Home:
+                    HomeView(rootIsActive: self.$isActive)
+                case MainView.Message:
+                    MessageView()
+                case MainView.Profile:
+                    ProfileView()
+                }
             }
+            // Toolbar consisting of home, messages, and profile
             HStack {
-                Button (action: { self.isActive = false; self.view = MainView.Home }){
-                    Text("Home")
-                        .font(.subheadline)
-                        .foregroundColor(Color.blue)
-                        .padding()
-                }
-                Button (action: { self.isActive = false; self.view = MainView.Message }){
-                    Text("Message")
-                        .font(.subheadline)
-                        .foregroundColor(Color.blue)
-                        .padding()
-                }
-                Button (action: { self.isActive = false; self.view = MainView.Profile }){
-                    Text("Profile")
-                        .font(.subheadline)
-                        .foregroundColor(Color.blue)
-                        .padding()
-                }
-            }.frame(maxHeight: .infinity, alignment: .bottom)
+                Spacer()
+                Button (action: { self.isActive = false; self.view = MainView.Home }, label: {Text("Home")}).padding()
+                Spacer()
+                Button (action: { self.isActive = false; self.view = MainView.Message }, label: {Text("Messages")}).padding()
+                Spacer()
+                Button (action: { self.isActive = false; self.view = MainView.Profile }, label: {Text("Profile")}).padding()
+                Spacer()
+            }
         }
     }
 }

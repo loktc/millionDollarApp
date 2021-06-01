@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct message: View {
+struct MessageView: View {
     var body: some View {
-        Text("Message")//.frame(minHeight: 0, maxHeight: .infinity)
+        Text("Message")
     }
 }
 
-struct message_Previews: PreviewProvider {
+struct MessageView_Previews: PreviewProvider {
     static var previews: some View {
-        message()
+        MessageView()
     }
 }

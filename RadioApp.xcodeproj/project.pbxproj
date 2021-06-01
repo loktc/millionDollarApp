@@ -13,10 +13,9 @@
 		C0E4472726538FD300A5B089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E4472626538FD300A5B089 /* Preview Assets.xcassets */; };
 		C0E4473226538FD300A5B089 /* RadioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4473126538FD300A5B089 /* RadioAppTests.swift */; };
 		C0E4473D26538FD300A5B089 /* RadioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4473C26538FD300A5B089 /* RadioAppUITests.swift */; };
-		C0E4475126607CE600A5B089 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475026607CE600A5B089 /* homePage.swift */; };
-		C0E4475326609CFA00A5B089 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475226609CFA00A5B089 /* message.swift */; };
-		C0E4475526609E6200A5B089 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475426609E6200A5B089 /* profile.swift */; };
-		C0E447582660B57E00A5B089 /* homePageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E447572660B57E00A5B089 /* homePageView.storyboard */; };
+		C0E4475126607CE600A5B089 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475026607CE600A5B089 /* HomeView.swift */; };
+		C0E4475326609CFA00A5B089 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475226609CFA00A5B089 /* MessageView.swift */; };
+		C0E4475526609E6200A5B089 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475426609E6200A5B089 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +48,9 @@
 		C0E4473826538FD300A5B089 /* RadioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4473C26538FD300A5B089 /* RadioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAppUITests.swift; sourceTree = "<group>"; };
 		C0E4473E26538FD300A5B089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0E4475026607CE600A5B089 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
-		C0E4475226609CFA00A5B089 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
-		C0E4475426609E6200A5B089 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
-		C0E447572660B57E00A5B089 /* homePageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = homePageView.storyboard; sourceTree = "<group>"; };
+		C0E4475026607CE600A5B089 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C0E4475226609CFA00A5B089 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		C0E4475426609E6200A5B089 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +103,9 @@
 			children = (
 				C0E4471F26538FD100A5B089 /* RadioAppApp.swift */,
 				C0E4472126538FD100A5B089 /* ContentView.swift */,
-				C0E447572660B57E00A5B089 /* homePageView.storyboard */,
-				C0E4475426609E6200A5B089 /* profile.swift */,
-				C0E4475226609CFA00A5B089 /* message.swift */,
-				C0E4475026607CE600A5B089 /* homePage.swift */,
+				C0E4475426609E6200A5B089 /* ProfileView.swift */,
+				C0E4475226609CFA00A5B089 /* MessageView.swift */,
+				C0E4475026607CE600A5B089 /* HomeView.swift */,
 				C0E4472326538FD300A5B089 /* Assets.xcassets */,
 				C0E4472826538FD300A5B089 /* Info.plist */,
 				C0E4472526538FD300A5B089 /* Preview Content */,
@@ -247,7 +244,6 @@
 			files = (
 				C0E4472726538FD300A5B089 /* Preview Assets.xcassets in Resources */,
 				C0E4472426538FD300A5B089 /* Assets.xcassets in Resources */,
-				C0E447582660B57E00A5B089 /* homePageView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E4472226538FD100A5B089 /* ContentView.swift in Sources */,
-				C0E4475326609CFA00A5B089 /* message.swift in Sources */,
+				C0E4475326609CFA00A5B089 /* MessageView.swift in Sources */,
 				C0E4472026538FD100A5B089 /* RadioAppApp.swift in Sources */,
-				C0E4475526609E6200A5B089 /* profile.swift in Sources */,
-				C0E4475126607CE600A5B089 /* homePage.swift in Sources */,
+				C0E4475526609E6200A5B089 /* ProfileView.swift in Sources */,
+				C0E4475126607CE600A5B089 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
