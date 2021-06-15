@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  RadioApp
 //
-//  Created by Lok Tin Ching on 5/17/21.
+//  Created by Kevin Cheang on 6/14/21.
 //
 
 import SwiftUI
@@ -14,8 +14,7 @@ enum Views {
     case Profile
 }
 
-struct ContentView: View {
-    
+struct HomeView: View {
     // isActive is used to return to one of the main view
     @State var isActive: Bool = false
     // view cotains the current view
@@ -29,6 +28,7 @@ struct ContentView: View {
     }
 }
 
+
 /*  Main navigational view for home, messages, and profile.
  */
 struct MainNavigationView: View {
@@ -39,7 +39,7 @@ struct MainNavigationView: View {
         NavigationView {
             switch self.rootView {
             case Views.Home:
-                HomeView(rootIsActive: self.$rootIsActive)
+                SelectionView(rootIsActive: self.$rootIsActive)
             case Views.Message:
                 MessageView()
             case Views.Profile:
@@ -70,8 +70,8 @@ struct MainToolBar: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView(isActive: false, view: Views.Home)
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct SelectionView: View {
     @Binding var rootIsActive : Bool
     
     var body: some View {
@@ -44,8 +44,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct SelectionView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(rootIsActive: .constant(true))
+        SelectionView(rootIsActive: .constant(true))
     }
 }
