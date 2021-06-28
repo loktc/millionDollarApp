@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0E051E126772CB00068ABAD /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E051E026772CB00068ABAD /* InputView.swift */; };
+		C0E051E126772CB00068ABAD /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E051E026772CB00068ABAD /* ConversationListView.swift */; };
 		C0E4472026538FD100A5B089 /* RadioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4471F26538FD100A5B089 /* RadioAppApp.swift */; };
 		C0E4472226538FD100A5B089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4472126538FD100A5B089 /* ContentView.swift */; };
 		C0E4472426538FD300A5B089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E4472326538FD300A5B089 /* Assets.xcassets */; };
@@ -19,6 +19,14 @@
 		C0E4475526609E6200A5B089 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4475426609E6200A5B089 /* ProfileView.swift */; };
 		C0E44763266B529800A5B089 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44762266B529800A5B089 /* User.swift */; };
 		C0E44767266B5F4B00A5B089 /* Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44766266B5F4B00A5B089 /* Messaging.swift */; };
+		C0EF101B268A87E6000CFE6F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF101A268A87E6000CFE6F /* SignInView.swift */; };
+		C0EF101D268A8801000CFE6F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF101C268A8801000CFE6F /* SignUpView.swift */; };
+		C0EF101F268A8823000CFE6F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF101E268A8823000CFE6F /* ChatView.swift */; };
+		C0EF1021268A8830000CFE6F /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1020268A8830000CFE6F /* ChatRow.swift */; };
+		C0EF1023268A88B8000CFE6F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1022268A88B8000CFE6F /* SearchView.swift */; };
+		C0EF1025268A88CE000CFE6F /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1024268A88CE000CFE6F /* SendButton.swift */; };
+		C0EF1027268A88EB000CFE6F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1026268A88EB000CFE6F /* Message.swift */; };
+		C0EF1029268A8900000CFE6F /* AppStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1028268A8900000CFE6F /* AppStateModel.swift */; };
 		CF14C92526788C740036E8C2 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14C92426788C740036E8C2 /* SelectionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0E051E026772CB00068ABAD /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InputView.swift; path = Protocols/InputView.swift; sourceTree = "<group>"; };
+		C0E051E026772CB00068ABAD /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
 		C0E4471C26538FD100A5B089 /* RadioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4471F26538FD100A5B089 /* RadioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAppApp.swift; sourceTree = "<group>"; };
 		C0E4472126538FD100A5B089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +66,14 @@
 		C0E4475426609E6200A5B089 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C0E44762266B529800A5B089 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C0E44766266B5F4B00A5B089 /* Messaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messaging.swift; sourceTree = "<group>"; };
+		C0EF101A268A87E6000CFE6F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = RadioApp/Views/SignInView.swift; sourceTree = SOURCE_ROOT; };
+		C0EF101C268A8801000CFE6F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C0EF101E268A8823000CFE6F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		C0EF1020268A8830000CFE6F /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		C0EF1022268A88B8000CFE6F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C0EF1024268A88CE000CFE6F /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
+		C0EF1026268A88EB000CFE6F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C0EF1028268A8900000CFE6F /* AppStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateModel.swift; sourceTree = "<group>"; };
 		CF14C92426788C740036E8C2 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +127,6 @@
 			children = (
 				CF14C92326788B920036E8C2 /* Views */,
 				C0E4475E266B518800A5B089 /* Messager */,
-				C0E4472326538FD300A5B089 /* Assets.xcassets */,
-				C0E4472826538FD300A5B089 /* Info.plist */,
 				C0E4472526538FD300A5B089 /* Preview Content */,
 			);
 			path = RadioApp;
@@ -147,7 +161,9 @@
 		C0E4475E266B518800A5B089 /* Messager */ = {
 			isa = PBXGroup;
 			children = (
-				C0E051E026772CB00068ABAD /* InputView.swift */,
+				C0EF1019268A8624000CFE6F /* MessagerResources */,
+				C0EF1018268A8617000CFE6F /* MessagerModels */,
+				C0EF1017268A85EE000CFE6F /* MessagerView */,
 				C0E4475F266B519000A5B089 /* Protocols */,
 			);
 			path = Messager;
@@ -162,6 +178,36 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		C0EF1017268A85EE000CFE6F /* MessagerView */ = {
+			isa = PBXGroup;
+			children = (
+				C0E051E026772CB00068ABAD /* ConversationListView.swift */,
+				C0EF101E268A8823000CFE6F /* ChatView.swift */,
+				C0EF1020268A8830000CFE6F /* ChatRow.swift */,
+				C0EF1022268A88B8000CFE6F /* SearchView.swift */,
+				C0EF1024268A88CE000CFE6F /* SendButton.swift */,
+			);
+			path = MessagerView;
+			sourceTree = "<group>";
+		};
+		C0EF1018268A8617000CFE6F /* MessagerModels */ = {
+			isa = PBXGroup;
+			children = (
+				C0EF1026268A88EB000CFE6F /* Message.swift */,
+				C0EF1028268A8900000CFE6F /* AppStateModel.swift */,
+			);
+			path = MessagerModels;
+			sourceTree = "<group>";
+		};
+		C0EF1019268A8624000CFE6F /* MessagerResources */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4472326538FD300A5B089 /* Assets.xcassets */,
+				C0E4472826538FD300A5B089 /* Info.plist */,
+			);
+			path = MessagerResources;
+			sourceTree = "<group>";
+		};
 		CF14C92326788B920036E8C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +217,8 @@
 				C0E4472126538FD100A5B089 /* ContentView.swift */,
 				C0E4475026607CE600A5B089 /* HomeView.swift */,
 				CF14C92426788C740036E8C2 /* SelectionView.swift */,
+				C0EF101A268A87E6000CFE6F /* SignInView.swift */,
+				C0EF101C268A8801000CFE6F /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,10 +355,18 @@
 				C0E4472226538FD100A5B089 /* ContentView.swift in Sources */,
 				C0E44767266B5F4B00A5B089 /* Messaging.swift in Sources */,
 				C0E4475326609CFA00A5B089 /* MessageView.swift in Sources */,
+				C0EF101D268A8801000CFE6F /* SignUpView.swift in Sources */,
+				C0EF101F268A8823000CFE6F /* ChatView.swift in Sources */,
 				C0E4472026538FD100A5B089 /* RadioAppApp.swift in Sources */,
+				C0EF1029268A8900000CFE6F /* AppStateModel.swift in Sources */,
+				C0EF101B268A87E6000CFE6F /* SignInView.swift in Sources */,
 				C0E4475526609E6200A5B089 /* ProfileView.swift in Sources */,
 				CF14C92526788C740036E8C2 /* SelectionView.swift in Sources */,
-				C0E051E126772CB00068ABAD /* InputView.swift in Sources */,
+				C0EF1021268A8830000CFE6F /* ChatRow.swift in Sources */,
+				C0EF1023268A88B8000CFE6F /* SearchView.swift in Sources */,
+				C0E051E126772CB00068ABAD /* ConversationListView.swift in Sources */,
+				C0EF1025268A88CE000CFE6F /* SendButton.swift in Sources */,
+				C0EF1027268A88EB000CFE6F /* Message.swift in Sources */,
 				C0E4475126607CE600A5B089 /* HomeView.swift in Sources */,
 				C0E44763266B529800A5B089 /* User.swift in Sources */,
 			);
