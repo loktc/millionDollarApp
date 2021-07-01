@@ -125,6 +125,7 @@
 		C0E4471E26538FD100A5B089 /* RadioApp */ = {
 			isa = PBXGroup;
 			children = (
+				C0E4472826538FD300A5B089 /* Info.plist */,
 				CF14C92326788B920036E8C2 /* Views */,
 				C0E4475E266B518800A5B089 /* Messager */,
 				C0E4472526538FD300A5B089 /* Preview Content */,
@@ -203,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				C0E4472326538FD300A5B089 /* Assets.xcassets */,
-				C0E4472826538FD300A5B089 /* Info.plist */,
 			);
 			path = MessagerResources;
 			sourceTree = "<group>";
