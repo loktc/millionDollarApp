@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ConversationListView: View {
     let usernames = ["James", "Kevin", "Meow"]
+    @EnvironmentObject var model: AppStateModel
+    @State var otherUsername: String = ""
+    @State var showChat = false
     
     var body: some View {
         NavigationView {
@@ -26,10 +29,17 @@ struct ConversationListView: View {
                                     .bold()
                                     .foregroundColor(Color(.label))
                                     .font(.system(size: 32))
+                                
                                 Spacer()
                             }
                             .padding()
                         })
+                }
+                
+                if !otherUsername.isEmpty{
+                    NavigationLink("",
+                                   destination: ChatView(otherUsername: otherUsername),
+                                   isActive: $showChat)
                 }
             }
             .navigationTitle("Conversations")
@@ -42,12 +52,20 @@ struct ConversationListView: View {
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(
-                        destination: SearchView(),
+                        destination: SearchView { name in
+                            DispatchQueue.main.asyncAfter(deadline: .now()+1){
+                                self.otherUsername = name
+                                self.showChat = true
+                            }
+                        },
                         label: {
-                        Image(systemName: "magnifyingglass")
-                    })
+                            Image(systemName: "magnifyingglass")
+                        })
                 }
             }
+            .fullScreenCover(isPresented: $model.showingSignIn, content: {
+                SignInView()
+            })
         }
     }
     
@@ -60,5 +78,6 @@ struct ConversationListView: View {
 struct ConversationListView_Previews: PreviewProvider {
     static var previews: some View {
         ConversationListView()
+            .preferredColorScheme(.dark)
     }
 }
