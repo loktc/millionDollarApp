@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781BCF510F4177AFC70296DA /* Pods_RadioApp_RadioAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F184534DC9D8CB871A1487B0 /* Pods_RadioApp_RadioAppUITests.framework */; };
+		AED51989E80092C1D5923F4C /* Pods_RadioAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3211E187B16347B333F48AEB /* Pods_RadioAppTests.framework */; };
 		C0E051E126772CB00068ABAD /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E051E026772CB00068ABAD /* ConversationListView.swift */; };
 		C0E4472026538FD100A5B089 /* RadioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4471F26538FD100A5B089 /* RadioAppApp.swift */; };
 		C0E4472226538FD100A5B089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4472126538FD100A5B089 /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 		C0EF1025268A88CE000CFE6F /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1024268A88CE000CFE6F /* SendButton.swift */; };
 		C0EF1027268A88EB000CFE6F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1026268A88EB000CFE6F /* Message.swift */; };
 		C0EF1029268A8900000CFE6F /* AppStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF1028268A8900000CFE6F /* AppStateModel.swift */; };
+		C0EF106226C9BE34000CFE6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EF106126C9BE33000CFE6F /* GoogleService-Info.plist */; };
+		C2C0C36B8BD8ED01FDEE69B2 /* Pods_RadioApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A974A913BCDBED92EA83541 /* Pods_RadioApp.framework */; };
 		CF14C92526788C740036E8C2 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14C92426788C740036E8C2 /* SelectionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21EC847CDADFE22830F9BAEC /* Pods-RadioAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioAppTests.release.xcconfig"; path = "Target Support Files/Pods-RadioAppTests/Pods-RadioAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		244F201EF654B9068EB242C1 /* Pods-RadioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioApp.release.xcconfig"; path = "Target Support Files/Pods-RadioApp/Pods-RadioApp.release.xcconfig"; sourceTree = "<group>"; };
+		3211E187B16347B333F48AEB /* Pods_RadioAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A974A913BCDBED92EA83541 /* Pods_RadioApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FB109E71D7931CA8CFF38A /* Pods-RadioApp-RadioAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioApp-RadioAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RadioApp-RadioAppUITests/Pods-RadioApp-RadioAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9929C68C8C91DEB27C1B8E88 /* Pods-RadioAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RadioAppTests/Pods-RadioAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD7343980CBB690492E5367 /* Pods-RadioApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioApp.debug.xcconfig"; path = "Target Support Files/Pods-RadioApp/Pods-RadioApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C0E051E026772CB00068ABAD /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
 		C0E4471C26538FD100A5B089 /* RadioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4471F26538FD100A5B089 /* RadioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAppApp.swift; sourceTree = "<group>"; };
@@ -74,7 +85,10 @@
 		C0EF1024268A88CE000CFE6F /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
 		C0EF1026268A88EB000CFE6F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C0EF1028268A8900000CFE6F /* AppStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateModel.swift; sourceTree = "<group>"; };
+		C0EF106126C9BE33000CFE6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF14C92426788C740036E8C2 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		EBBAADCE87C2A33CD036ACEA /* Pods-RadioApp-RadioAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioApp-RadioAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RadioApp-RadioAppUITests/Pods-RadioApp-RadioAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F184534DC9D8CB871A1487B0 /* Pods_RadioApp_RadioAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioApp_RadioAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C0C36B8BD8ED01FDEE69B2 /* Pods_RadioApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED51989E80092C1D5923F4C /* Pods_RadioAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +112,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781BCF510F4177AFC70296DA /* Pods_RadioApp_RadioAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BE8CECDCEFA511B37E3C49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A974A913BCDBED92EA83541 /* Pods_RadioApp.framework */,
+				F184534DC9D8CB871A1487B0 /* Pods_RadioApp_RadioAppUITests.framework */,
+				3211E187B16347B333F48AEB /* Pods_RadioAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D889A082D0BE4C207D4F74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD7343980CBB690492E5367 /* Pods-RadioApp.debug.xcconfig */,
+				244F201EF654B9068EB242C1 /* Pods-RadioApp.release.xcconfig */,
+				72FB109E71D7931CA8CFF38A /* Pods-RadioApp-RadioAppUITests.debug.xcconfig */,
+				EBBAADCE87C2A33CD036ACEA /* Pods-RadioApp-RadioAppUITests.release.xcconfig */,
+				9929C68C8C91DEB27C1B8E88 /* Pods-RadioAppTests.debug.xcconfig */,
+				21EC847CDADFE22830F9BAEC /* Pods-RadioAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C0E4471326538FD100A5B089 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +150,8 @@
 				C0E4473026538FD300A5B089 /* RadioAppTests */,
 				C0E4473B26538FD300A5B089 /* RadioAppUITests */,
 				C0E4471D26538FD100A5B089 /* Products */,
+				78D889A082D0BE4C207D4F74 /* Pods */,
+				4BE8CECDCEFA511B37E3C49A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				C0E4472826538FD300A5B089 /* Info.plist */,
+				C0EF106126C9BE33000CFE6F /* GoogleService-Info.plist */,
 				CF14C92326788B920036E8C2 /* Views */,
 				C0E4475E266B518800A5B089 /* Messager */,
 				C0E4472526538FD300A5B089 /* Preview Content */,
@@ -230,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E4474126538FD300A5B089 /* Build configuration list for PBXNativeTarget "RadioApp" */;
 			buildPhases = (
+				891B01E479FF017669F774E5 /* [CP] Check Pods Manifest.lock */,
 				C0E4471826538FD100A5B089 /* Sources */,
 				C0E4471926538FD100A5B089 /* Frameworks */,
 				C0E4471A26538FD100A5B089 /* Resources */,
+				744A107789C3D3DB55F955EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E4474426538FD300A5B089 /* Build configuration list for PBXNativeTarget "RadioAppTests" */;
 			buildPhases = (
+				99117E908579845D88522F3D /* [CP] Check Pods Manifest.lock */,
 				C0E4472926538FD300A5B089 /* Sources */,
 				C0E4472A26538FD300A5B089 /* Frameworks */,
 				C0E4472B26538FD300A5B089 /* Resources */,
@@ -265,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E4474726538FD300A5B089 /* Build configuration list for PBXNativeTarget "RadioAppUITests" */;
 			buildPhases = (
+				A1FE210DA7800B26BC3C04CC /* [CP] Check Pods Manifest.lock */,
 				C0E4473426538FD300A5B089 /* Sources */,
 				C0E4473526538FD300A5B089 /* Frameworks */,
 				C0E4473626538FD300A5B089 /* Resources */,
+				87B74F56552800AFFC123C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,6 +377,7 @@
 			files = (
 				C0E4472726538FD300A5B089 /* Preview Assets.xcassets in Resources */,
 				C0E4472426538FD300A5B089 /* Assets.xcassets in Resources */,
+				C0EF106226C9BE34000CFE6F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +396,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		744A107789C3D3DB55F955EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioApp/Pods-RadioApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioApp/Pods-RadioApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioApp/Pods-RadioApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B74F56552800AFFC123C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioApp-RadioAppUITests/Pods-RadioApp-RadioAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioApp-RadioAppUITests/Pods-RadioApp-RadioAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioApp-RadioAppUITests/Pods-RadioApp-RadioAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891B01E479FF017669F774E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99117E908579845D88522F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FE210DA7800B26BC3C04CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioApp-RadioAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0E4471826538FD100A5B089 /* Sources */ = {
@@ -522,6 +675,7 @@
 		};
 		C0E4474226538FD300A5B089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD7343980CBB690492E5367 /* Pods-RadioApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,6 +697,7 @@
 		};
 		C0E4474326538FD300A5B089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244F201EF654B9068EB242C1 /* Pods-RadioApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +719,7 @@
 		};
 		C0E4474526538FD300A5B089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9929C68C8C91DEB27C1B8E88 /* Pods-RadioAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -585,6 +741,7 @@
 		};
 		C0E4474626538FD300A5B089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EC847CDADFE22830F9BAEC /* Pods-RadioAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -606,6 +763,7 @@
 		};
 		C0E4474826538FD300A5B089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FB109E71D7931CA8CFF38A /* Pods-RadioApp-RadioAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -625,6 +783,7 @@
 		};
 		C0E4474926538FD300A5B089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBAADCE87C2A33CD036ACEA /* Pods-RadioApp-RadioAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

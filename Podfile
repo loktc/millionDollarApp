@@ -7,6 +7,11 @@ target 'RadioApp' do
 
   # Pods for RadioApp
 
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
+
   target 'RadioAppTests' do
     inherit! :search_paths
     # Pods for testing
